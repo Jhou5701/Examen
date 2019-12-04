@@ -16,5 +16,19 @@ namespace Examen
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            int limite=0;
+            double suma = 0;
+            limite = int.Parse(this.txtingreso.Text);
+            suma = Clases.Examen.sumaFactorial(limite);
+            this.txtresultado.Text = suma.ToString();
+        }
     }
 }

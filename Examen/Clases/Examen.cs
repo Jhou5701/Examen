@@ -47,10 +47,19 @@ namespace Examen.Clases
             if (num == 0 || num == 1)
                 return fac;
             for(int i=1;i<=num;i++)
-            {
-                fac *= i;
-            }
+                fac = fac * i;
             return fac;
+        }
+        public static double sumaFactorial(int limite)
+        {
+            double suma = 0;
+            int j = limite;
+            for(int i=1;i<=limite;i++)
+            {
+                suma = suma + Math.Pow(2, i) * factorial(j--);
+                
+            }
+            return suma;
         }
     }
 }

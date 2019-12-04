@@ -47,6 +47,7 @@
             // 
             // txtresultado
             // 
+            this.txtresultado.Enabled = false;
             this.txtresultado.Location = new System.Drawing.Point(232, 75);
             this.txtresultado.Name = "txtresultado";
             this.txtresultado.Size = new System.Drawing.Size(100, 20);
@@ -76,6 +77,7 @@
             this.btnCalcular.TabIndex = 4;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnSalir
             // 
@@ -85,6 +87,7 @@
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Factorial_Examen
             // 
