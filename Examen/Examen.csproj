@@ -61,6 +61,12 @@
     <Compile Include="Factorial Examen.Designer.cs">
       <DependentUpon>Factorial Examen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ordenacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenacion.Designer.cs">
+      <DependentUpon>Ordenacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="..\..\..\..\Desktop\examen\Primos.resx">
@@ -69,6 +75,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Factorial Examen.resx">
       <DependentUpon>Factorial Examen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenacion.resx">
+      <DependentUpon>Ordenacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

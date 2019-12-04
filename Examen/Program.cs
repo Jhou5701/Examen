@@ -16,7 +16,7 @@ namespace Examen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Factorial_Examen());
+            Application.Run(new Ordenacion());
         }
     }
 }
